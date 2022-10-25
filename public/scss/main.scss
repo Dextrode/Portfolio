@@ -1,0 +1,368 @@
+@import url(https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,600;1,700&family=Righteous&display=swap);
+
+$primary: #30332e;
+$secondary: #ff4c29;
+$dark: #4b4b4b;
+$light: #f3f3f3;
+$orange: #ff4c29;
+$offwhite: #dcdcdd;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/* COLORS
+	#ff4c29 - Orange
+    #30332e - Dark Grey
+    #4b4b4b - Grey
+    #f3f3f3 - White
+*/
+
+/* FONTS
+	Header - font-family: 'Righteous', cursive;
+    Paragraph - font-family: 'JetBrains Mono', monospace;
+*/
+
+/* 
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+) 
+*/
+
+/*
+|===============---------------------------
+|  Global
+|===============---------------------------
+*/
+
+/*
+|===============---------------------------
+|  Typography
+|===============---------------------------
+*/
+
+.display-3 {
+    font-size: calc(2.5rem);
+    font-family: "Righteous", cursive;
+    color: $light;
+    line-height: 0.7;
+    height: 37px;
+}
+
+.header {
+    width: fit-content;
+}
+
+li,
+p,
+h2,
+h3 {
+    font-family: "JetBrains Mono", monospace;
+}
+
+h2 {
+    line-height: 1;
+}
+
+p,
+h3 {
+    color: $light;
+    font-weight: 700;
+}
+
+
+h3 {
+    color: $orange;
+    font-weight: 700;
+    margin-bottom: 0.625rem;
+    line-height: 1;
+}
+
+p,
+li {
+    color: $offwhite;
+}
+
+li {
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style-image: url("../images/listicon.svg");
+
+    padding-left: 15px;
+}
+
+/*
+|------------------------------------------
+|  Header
+|------------------------------------------
+*/
+
+.navbar-toggler {
+    border-width: 0;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/*
+|------------------------------------------
+|  Main
+|------------------------------------------
+*/
+
+.greg-image {
+    border: $light 4px solid;
+    border-radius: 2rem;
+}
+
+/*
+|-------------------
+|  Card
+|-------------------
+*/
+
+.card {
+    border-radius: 15px;
+    max-width: 30vw;
+    min-width: 235px;
+}
+
+.img-container {
+    z-index: +1;
+}
+
+.card-deco {
+    color: $secondary;
+    position: absolute;
+    right: 0px;
+    top: 42px;
+    z-index: 0;
+    height: 82px;
+    width: 100%;
+}
+
+/*
+|-------------------
+|  About
+|-------------------
+*/
+
+.learn-more-me {
+    position: relative;
+    top: 100px;
+    right: 0;
+}
+
+.lang li {
+    font-size: large;
+    font-weight: 700;
+}
+
+/*
+|-------------------
+|  Section 3
+|-------------------
+*/
+
+.socials {
+    margin-right: 2vw;
+    width: 10vw;
+    max-width: 45px;
+}
+
+/*
+|------------------------------------------
+|  Artifacts
+|------------------------------------------
+*/
+
+.email-lofi {
+    width: 110px;
+}
+
+.animated_logo {
+    background-color: $dark;
+    border: $orange solid 4px;
+}
+
+svg {
+    max-width: 300px;
+    padding: 10px;
+}
+
+/*
+|===============---------------------------
+|  Media Query
+|===============---------------------------
+*/
+
+@media (min-width: 576px) {
+    .check-icon-text {
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .email-lofi {
+        width: 160px;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 17px;
+    }
+
+    .me {
+        max-width: 400px;
+    }
+
+    .card {
+        min-width: 300px;
+    }
+
+    .email-lofi {
+        width: 190px;
+    }
+
+    svg {
+        padding: 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    .me {
+        max-width: 450px;
+    }
+
+    svg {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .me {
+        max-width: 500px;
+    }
+
+    .learn-more-me {
+        top: 115px;
+    }
+
+    .email-lofi {
+        width: 220px;
+    }
+}
+
+@media (min-width: 1400px) {
+}
+
+/*
+|------------------------------------------
+|  Logo Animation
+|------------------------------------------
+*/
+
+#rect {
+    animation: slideOver 3s linear infinite;
+}
+
+@keyframes slideOver {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(230%);
+    }
+}
+
+#rect2 {
+    animation: slideOver2 3s ease-out infinite;
+    animation-delay: 1.5s;
+}
+
+@keyframes slideOver2 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-230%);
+    }
+}
+
+#logoSVG {
+    animation: spin infinite 6s ease-in-out;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    70% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*
+|------------------------------------------
+|  Text Typing Animation
+|------------------------------------------
+*/
+
+.typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid #ff4d2900; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    
+    animation: typing 2s steps(9, end), blink-caret 0.8s step-end 3;
+}
+
+
+
+.typewriter2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid #ff4d2900; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    width: 0%;
+    animation: typing 1s steps(4, start), blink-caret 0.8s step-end infinite;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+/* The typing effect */
+@keyframes typing {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    0% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #ff4c29;
+    }
+}
+
