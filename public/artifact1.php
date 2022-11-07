@@ -8,13 +8,13 @@ require_once('../init.php');
 
 <head>
     <!-- ** Head ** -->
-    <?php require(h('partials/global-partials/head.php')); ?>
+    <?php require('partials/global-partials/head.php'); ?>
 </head>
 
 <body class="bg-primary" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <header>
         <!-- ** Header ** -->
-        <?php require(h('partials/global-partials/header.php')); ?>
+        <?php require('partials/global-partials/header.php'); ?>
     </header>
     <main>
         <div class="container p-4 mt-sm-4 my-4">
@@ -172,7 +172,7 @@ require_once('../init.php');
         </div>
     </main>
     <footer>
-        <?php require(h('partials/global-partials/footer.php')); ?>
+        <?php require('partials/global-partials/footer.php'); ?>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>
