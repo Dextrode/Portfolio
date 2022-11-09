@@ -1,9 +1,7 @@
 RewriteEngine on
-RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
 RewriteRule ^ /%1 [NC,L,R]
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^ %{REQUEST_URI}.php [NC,L]
 
 RewriteRule ^$ /public [L]
-RewriteCond %{REQUEST_URI} !^/public
-RewriteRule ^(.*)$ public/$1 [L]
