@@ -1,16 +1,15 @@
 RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^$ /public [L]
+RewriteCond %{THE_REQUEST} \s/+public/(\S*) [NC]
+RewriteRule ^ /%1 [L,R=301,NE]
+
 RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
 RewriteRule ^ /%1 [NC,L,R]
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^ %{REQUEST_URI}.php [NC,L]
 
 # RewriteCond %{REQUEST_FILENAME} !-d
-
-RewriteRule ^$ /public [L]
-
-RewriteBase /
-RewriteCond %{REQUEST_URI} !^/public
-RewriteRule ^(.*)$ public/$1 [L]
-
-# RewriteCond %{REQUEST_URI} !^/public/
-# RewriteRule ^(.*)$ /public/$1 [L,QSA]
