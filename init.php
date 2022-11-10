@@ -4,7 +4,7 @@
     // Outputs the data stored into a variable and sends to the browser
     ob_start();
 
-    define('WWW_ROOT', 'http://localhost');
+    define('WWW_ROOT', 'https://www.gregoryosborne.ca');
     define('PROJECT_ROOT', dirname(__FILE__));
 
     // Adding the database constants

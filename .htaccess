@@ -1,5 +1,7 @@
 RewriteEngine on
 RewriteBase /public/
+RewriteCond %{REQUEST_FILENAME} !-d
+
 RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
 RewriteRule ^ /%1 [NC,L,R]
 RewriteCond %{REQUEST_FILENAME}.php -f
