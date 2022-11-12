@@ -1,22 +1,12 @@
 RewriteEngine on
 
-RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
-RewriteRule ^ /%1 [NC,L,R]
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^ %{REQUEST_URI}.php [NC,L]
-
-# RewriteCond %{THE_REQUEST} ^GET\ /public/
-# RewriteCond %{HTTP_HOST} ^(www\.)?gregryosborne.ca$
-# RewriteRule ^public/(.*) /$1 [L,R=301]
-# RewriteCond %{HTTP_HOST} ^(www\.)?gregryosborne.ca$
-# RewriteRule !^public/ public%{REQUEST_URI} [L]
-
-# RewriteCond %{HTTP_HOST} ^gregryosborne\.ca$ [OR]
-# RewriteCond %{HTTP_HOST} ^www\.gregryosborne\.ca$
-# RewriteRule ^public/$ "http\:\/\/domain\.ca\/" [R=301,L]
+# RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+# RewriteRule ^ /%1 [NC,L,R]
+# RewriteCond %{REQUEST_FILENAME}.php -f
+# RewriteRule ^ %{REQUEST_URI}.php [NC,L]
 
 RewriteCond %{HTTP_HOST} ^(www.)?gregryosborne.com$
-RewriteCond %{REQUEST_URI} !^/subfolder/
+RewriteCond %{REQUEST_URI} !^/public/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /public/$1
