@@ -11,7 +11,7 @@
                     <a class="nav-link" aria-current="page" title="Link to Homepage" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo get_public_url("/public/work.php") ?>" title="Link to Work page">Work</a>
+                    <a class="nav-link" href="<?php echo get_public_url("/work.php") ?>" title="Link to Work page">Work</a>
                 </li>
             </ul>
         </div>

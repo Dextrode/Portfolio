@@ -43,7 +43,7 @@ $loading_animation = new Artifact([
         // "img4" => "#",
     ],
     "thumbnail" => "logo_dark.svg",
-    "link" => "public/artifact1.php",
+    "link" => "artifact1.php",
 
 ]);
 
@@ -88,7 +88,7 @@ $responsive_email = new Artifact([
         // "img4" => "#",
     ],
     "thumbnail" => "email-logo.jpg",
-    "link" => "public/artifact2.php",
+    "link" => "artifact2.php",
 ]);
 
 // --------- THIRD ARTIFACT ---------
@@ -132,7 +132,7 @@ $wordpress_recreation = new Artifact([
         // "img4" => "#",
     ],
     "thumbnail" => "wordpress-thumbnail.png",
-    "link" => "public/artifact3.php",
+    "link" => "artifact3.php",
 ]);
 
 // --------- THIRD ARTIFACT ---------
