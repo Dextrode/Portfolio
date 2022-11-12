@@ -18,3 +18,8 @@
     AOS.init();
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+
+
+
+
+<!-- <script src="<?php // echo get_public_url("scripts/main.js") ?>"></script> -->
