@@ -26,6 +26,8 @@
 
     // Start a session
 
+    // Test
+
     // Passes database stored in $db to the respective class
     // Artifact::set_db($db);
 
