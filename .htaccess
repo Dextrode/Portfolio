@@ -5,3 +5,8 @@ RewriteRule ^ /%1 [NC,L,R]
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^ %{REQUEST_URI}.php [NC,L]
 
+RewriteCond %{THE_REQUEST} ^GET\ /public/
+RewriteCond %{HTTP_HOST} ^(www\.)?gregryosborne.ca$
+RewriteRule ^public/(.*) /$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^(www\.)?gregryosborne.ca$
+RewriteRule !^public/ public%{REQUEST_URI} [L]
