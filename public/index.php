@@ -40,6 +40,9 @@ require_once('../init.php');
 
         <!-- ** Descriptors ** -->
         <?php require('partials/home-partials/descriptors.php'); ?>
+
+        <!-- ** Contact ** -->
+        <?php require('partials/home-partials/contact.php'); ?>
     </main>
 
     <footer>

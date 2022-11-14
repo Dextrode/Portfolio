@@ -8,7 +8,7 @@
     </div>
     <div class="row pt-4">
         <div class="col">
-            <p>&copy; 2021 Gregory Osborne.</p>
+            <p>&copy; 2022 Gregory Osborne.</p>
         </div>
     </div>
 </div>
