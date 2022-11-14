@@ -65,7 +65,7 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-12 col-lg-8">
-                    <img class="img-fluid rounded" src="images/logo_brainstorm.jpg" alt="Logo Brainstorming Sketch" />
+                    <img class="img-fluid rounded" src="images/logo_brainstorm.jpg" alt="Logo Brainstorming Sketch">
                 </div>
                 <div class="col-0 col-lg-2"></div>
             </div>
@@ -101,7 +101,7 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-12 col-lg-8">
-                    <img class="img-fluid rounded" src="images/animation_sketch.jpg" alt="Logo Animation Sketch" />
+                    <img class="img-fluid rounded" src="images/animation_sketch.jpg" alt="Logo Animation Sketch">
                 </div>
                 <div class="col-0 col-lg-2"></div>
             </div>

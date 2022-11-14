@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
     <div class="container px-4 my-2">
-        <a class="navbar-brand" href="/" title="Link to Homepage"><img src="images/logo_dark.svg" alt="Dark Logo" width="100" /></a>
+        <a class="navbar-brand" href="/" title="Link to Homepage"><img src="images/logo_dark.svg" alt="Dark Logo" width="100"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

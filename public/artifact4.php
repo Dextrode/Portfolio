@@ -77,7 +77,7 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-12 col-lg-8 d-flex justify-content-center">
-                    <img class="img-fluid rounded justify-self-center" src="images/solitaire-array.PNG" alt="solitaire array screenshot" />
+                    <img class="img-fluid rounded justify-self-center" src="images/solitaire-array.PNG" alt="solitaire array screenshot">
                 </div>
                 <div class="col-0 col-lg-2"></div>
             </div>
@@ -98,7 +98,7 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-12 col-lg-8 d-flex justify-content-center">
-                    <img class="img-fluid rounded justify-self-center" src="images/solitaire-card.PNG" alt="card front and back image" />
+                    <img class="img-fluid rounded justify-self-center" src="images/solitaire-card.PNG" alt="card front and back image">
                 </div>
                 <div class="col-0 col-lg-2"></div>
             </div>
@@ -133,7 +133,7 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-12 col-lg-8 d-flex justify-content-center">
-                    <img width="80%" class="img-fluid rounded justify-self-center" src="images/solitaire-start.PNG" alt="solitaire set-up screenshot" />
+                    <img width="80%" class="img-fluid rounded justify-self-center" src="images/solitaire-start.PNG" alt="solitaire set-up screenshot">
                 </div>
                 <div class="col-0 col-lg-2"></div>
             </div>

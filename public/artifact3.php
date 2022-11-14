@@ -86,7 +86,7 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-12 col-lg-8">
-                    <img class="img-fluid rounded justify-self-center" src="images/wordpress-screenshot.png" alt="wordpress website screenshot" />
+                    <img class="img-fluid rounded justify-self-center" src="images/wordpress-screenshot.png" alt="wordpress website screenshot">
                 </div>
                 <div class="col-0 col-lg-2"></div>
             </div>
@@ -111,7 +111,7 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-12 col-lg-8">
-                    <img class="img-fluid rounded justify-self-center" src="images/wordpress-issue.PNG" alt="wordpress website issue screenshot" />
+                    <img class="img-fluid rounded justify-self-center" src="images/wordpress-issue.PNG" alt="wordpress website issue screenshot">
                 </div>
                 <div class="col-0 col-lg-2"></div>
             </div>
