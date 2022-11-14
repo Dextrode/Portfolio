@@ -134,10 +134,6 @@ ul {
     min-width: 235px;
 }
 
-.card-img-top {
-    width: 92%;
-}
-
 .img-container {
     z-index: +1;
 }
@@ -221,7 +217,7 @@ svg {
     }
 
     .card-img-top {
-        width: 95%;
+        width: 92%;
     }
 }
 
@@ -244,6 +240,10 @@ svg {
 
     svg {
         padding: 15px;
+    }
+
+    .card-img-top {
+        width: 95%;
     }
 }
 
