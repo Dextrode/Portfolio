@@ -120,9 +120,7 @@ require_once('../init.php');
             </div>
             <div class="row">
                 <div class="col-0 col-lg-2"></div>
-                <div class="col-12 col-lg-8">
-                    <img class="img-fluid rounded justify-self-center" src="images/email-testing.png" alt="email open in browsers" />
-                </div>
+                    <a href="http://smartpotsemail.gregoryosborne.ca/" title="Link to About page" class="btn btn-secondary d-none d-lg-block learn-more-me w-50">See Email</a>
                 <div class="col-0 col-lg-2"></div>
             </div>
         </div>
