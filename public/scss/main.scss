@@ -207,6 +207,13 @@ svg {
 |  Media Query
 |===============---------------------------
 */
+@media (max-width: 576px) {
+    .card-img-top {
+        width: 92%;
+    }
+}
+
+
 
 @media (min-width: 576px) {
     .check-icon-text {
@@ -218,10 +225,6 @@ svg {
 
     .email-lofi {
         width: 160px;
-    }
-
-    .card-img-top {
-        width: 92%;
     }
 }
 
