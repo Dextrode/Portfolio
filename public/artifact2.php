@@ -118,10 +118,18 @@ require_once('../init.php');
                 </div>
                 <div class="col-0 col-lg-1"></div>
             </div>
+        </div>
+        <div class="container p-4 my-4">
             <div class="row">
-                <div class="col-0 col-lg-2"></div>
-                    <a href="http://smartpotsemail.gregoryosborne.ca/" title="Link to About page" class="btn btn-secondary d-none d-lg-block learn-more-me w-50">See Email</a>
-                <div class="col-0 col-lg-2"></div>
+                <div class="col-0 col-lg-1"></div>
+                <div class="col-12 col-lg-10">
+                    <div class="d-flex justify-content-around">
+                        <a href="http://smartpotsemail.gregoryosborne.ca/" class="btn btn-secondary w-25" target="_blank">Email</a>
+
+                        <a href="https://github.com/Dextrode/HTML-Email/blob/main/index.html" class="btn btn-secondary w-25" target="_blank">Code</a>
+                    </div>
+                </div>
+                <div class="col-0 col-lg-1"></div>
             </div>
         </div>
     </main>
