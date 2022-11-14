@@ -1,4 +1,4 @@
-<div class="container p-4 my-4">
+<div class="container p-4 my-4" data-aos="fade-up">
     <div class="row">
         <div class="col-0 col-lg-1"></div>
         <div class="col-12 col-lg-10">

@@ -1,4 +1,4 @@
-<div class="col-12 col-sm-6 col-lg-4">
+<div class="col-12 col-sm-6 col-lg-4"  data-aos="fade-up">
     <div class="card-group">
         <div class="card shadow mr-6 bg-dark">
             <div class="img-container bg-primary d-flex mt-4 mx-3">
