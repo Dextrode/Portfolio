@@ -167,7 +167,7 @@ $solitaire = new Artifact([
         "img3" => "solitaire-array.PNG",
     ],
     "thumbnail" => "solitaire-thumb.PNG",
-    "link" => "artifact4.html",
+    "link" => "artifact4.php",
 ]);
 
 $portfolio_artifacts = [
