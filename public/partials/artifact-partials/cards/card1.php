@@ -10,7 +10,7 @@
                 <p class="card-text">
                     <?php echo h($portfolio_artifact->goal); ?>
                 </p>
-                <a href="<?php echo get_public_url($portfolio_artifact->link) ?>" class="btn btn-secondary" title="Learn More">Learn More</a>
+                <a href="<?php echo get_public_url($portfolio_artifact->link) ?>" class="btn btn-secondary" title="Learn more about artifacts">Learn More</a>
             </div>
         </div>
     </div>
