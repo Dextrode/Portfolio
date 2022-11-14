@@ -207,6 +207,23 @@ svg {
 |  Media Query
 |===============---------------------------
 */
+@media (min-width: 364px) {
+    .check-icon-text {
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .email-lofi {
+        width: 160px;
+    }
+
+    .card-img-top {
+        width: 90%;
+    }
+}
+
 
 @media (min-width: 576px) {
     .check-icon-text {
