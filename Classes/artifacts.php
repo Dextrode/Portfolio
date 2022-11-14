@@ -120,7 +120,7 @@ $wordpress_recreation = new Artifact([
         Once the new wireframe was finalized, I developed the email and hosted it on my domain.",
     ],
     "images" => [
-        "img1" => "wordpress-screenshot.png",
+        "img1" => "wordpress-screenshot.jpg",
         "img2" => "wordpress-issue.png",
 
     ],
