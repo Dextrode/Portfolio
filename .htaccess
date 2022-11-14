@@ -14,4 +14,4 @@ RewriteRule ^(.*)$ /public/$1
 RewriteCond %{HTTP_HOST} ^(www.)?gregoryosborne.ca$
 RewriteRule ^(/)?$ public/index.php [L]
 
-ErrorDocument 404 http://www.gregoryosborne.ca/404.php
+ErrorDocument 404 http://www.gregoryosborne.ca/404.html
