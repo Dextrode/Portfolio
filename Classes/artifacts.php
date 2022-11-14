@@ -23,7 +23,6 @@ $loading_animation = new Artifact([
         "first" => "HTML",
         "second" => "CSS",
         "third" => "Illustrator",
-        // "fourth" => "1",
     ],
     "body" => [
         "para1" => "I created my logo using symmetrical circles with splits, giving movement and a professional look. ",
@@ -34,13 +33,10 @@ $loading_animation = new Artifact([
         "para3" => "I continued to research animation techniques. On CodePen I found an animation that could be used to simulate my desired effect. This technique made the logo into a clip path, then used a shape to animate through the clip path.
         
         To make this technique work, I split my logo into 2 clipping masks. With media queries, I animated a rectangle shapes, moving them right to left through the clipping mask and vice versa, simulating fluid movement. Then I finalized it by adjusting the timings and size of the shapes making the animation smoother.",
-        // "fourth" => "1",
     ],
     "images" => [
         "img1" => "logo_brainstorm.jpg",
         "img2" => "animation_sketch.jpg",
-        // "img3" => "",
-        // "img4" => "#",
     ],
     "thumbnail" => "logo_dark.svg",
     "link" => "artifact1.php",
@@ -66,7 +62,6 @@ $responsive_email = new Artifact([
         "first" => "HTML",
         "second" => "CSS",
         "third" => "Illustrator",
-        // "fourth" => "1",
     ],
     "body" => [
         "para1" => "Our assignment was to develop an email as part of a larger project that included designing an app for “smart-pots.” We also created a website to promote “smart-pots” and the email’s purpose was to advertise our new product. ",
@@ -78,14 +73,11 @@ $responsive_email = new Artifact([
         "para3" => "I started creating the lofi-wireframe based on what I learned when reviewing other advertisement emails. This included a call to action, an explanation of the product, the benefits and photos showing the product itself.
         
         Once the new wireframe was finalized, I developed the email and hosted it on my domain.",
-        // "fourth" => "1",
     ],
     "images" => [
         "img1" => "email-logo.jpg",
         "img2a" => "email-lofi.png",
         "img2b" => "email-hifi.png",
-        // "img3" => "#",
-        // "img4" => "#",
     ],
     "thumbnail" => "email-logo.jpg",
     "link" => "artifact2.php",
@@ -110,7 +102,6 @@ $wordpress_recreation = new Artifact([
         "first" => "HTML",
         "second" => "CSS",
         "third" => "Illustrator",
-        // "fourth" => "1",
     ],
     "body" => [
         "para1" => "Our assignment was to develop an email as part of a larger project that included designing an app for “smart-pots.” We also created a website to promote “smart-pots” and the email’s purpose was to advertise our new product. ",
@@ -122,14 +113,11 @@ $wordpress_recreation = new Artifact([
         "para3" => "I started creating the lofi-wireframe based on what I learned when reviewing other advertisement emails. This included a call to action, an explanation of the product, the benefits and photos showing the product itself.
         
         Once the new wireframe was finalized, I developed the email and hosted it on my domain.",
-        // "fourth" => "1",
     ],
     "images" => [
         "img1" => "wordpress-screenshot.png",
         "img2" => "wordpress-issue.png",
-        // "img2b" => "email-hifi.png",
-        // "img3" => "#",
-        // "img4" => "#",
+
     ],
     "thumbnail" => "wordpress-thumbnail.png",
     "link" => "artifact3.php",

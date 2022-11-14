@@ -1,7 +1,4 @@
 <?php 
-
-    // Start the output buffering
-    // Outputs the data stored into a variable and sends to the browser
     ob_start();
 
     define('WWW_ROOT', 'https://www.gregoryosborne.ca');
@@ -24,11 +21,5 @@
     // Connect to the database
     // $db = db_connect();
 
-    // Start a session
-
-    // Test
-
     // Passes database stored in $db to the respective class
     // Artifact::set_db($db);
-
-    
