@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div>
-                <img class="greg-image img-fluid float-lg-end" src="images/greg-image.png" alt="Image of Greg Osborne" />
+                <img class="greg-image img-fluid float-lg-end" src="images/greg-image.png" alt="Image of Greg Osborne">
             </div>
         </div>
     </div>

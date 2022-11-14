@@ -7,7 +7,7 @@
                     src="images/check-icon.svg"
                     class="check-icon"
                     alt="checkmark icon"
-                />
+                >
                 <p>Adaptive</p>
             </div>
             <div class="check-icon-text">
@@ -15,7 +15,7 @@
                     src="images/check-icon.svg"
                     class="check-icon"
                     alt="checkmark icon"
-                />
+                >
                 <p>Persistant</p>
             </div>
             <div class="check-icon-text">
@@ -23,7 +23,7 @@
                     src="images/check-icon.svg"
                     class="check-icon"
                     alt="checkmark icon"
-                />
+                >
                 <p>Reliable</p>
             </div>
         </div>
