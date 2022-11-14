@@ -187,8 +187,6 @@ require_once('../init.php');
     <footer>
         <?php require('partials/global-partials/footer.php'); ?>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
-    <script src="scripts/main.js"></script>
 </body>
 
 </html>
