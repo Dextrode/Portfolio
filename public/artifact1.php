@@ -139,7 +139,7 @@ require_once('../init.php');
                     <h3>Finished Animation</h3>
                     <div class="d-flex shadow col-sm justify-content-center align-content-center rounded"></div>
                     <div class="animated_logo d-flex shadow col justify-content-center align-content-center rounded">
-                        <svg class="" xmlns="http://www.w3.org/2000/svg" id="logoSVG" data-name="logoSVG" viewBox="0 0 738 414.6" height="700" width="700">
+                        <svg class="" xmlns="http://www.w3.org/2000/svg" id="logoSVG" data-name="logoSVG" viewBox="0 0 738 414.6" height="300" width="700">
                             <defs>
                                 <clipPath id="clip-path">
                                     <rect id="rect" x="-700" y="250" height="700" width="700" />
