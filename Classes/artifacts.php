@@ -61,7 +61,7 @@ $responsive_email = new Artifact([
         "head5" => "Testing / Trouble Shooting",
     ],
     "date" => "May 22, 2022",
-    "goal" => " Design and code a responsive email with HTML and CSS. Test it in multiple browsers and.",
+    "goal" => "Design and code a responsive email with HTML and CSS. Test it in multiple browsers and.",
     "skills" => [
         "first" => "HTML",
         "second" => "CSS",
@@ -171,8 +171,8 @@ $solitaire = new Artifact([
 ]);
 
 $portfolio_artifacts = [
-        $loading_animation,
-        $responsive_email,
-        $wordpress_recreation,
-        $solitaire,
-    ];
+    $loading_animation,
+    $responsive_email,
+    $wordpress_recreation,
+    $solitaire,
+];

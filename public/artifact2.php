@@ -32,8 +32,7 @@ require_once('../init.php');
                     <div class="col-lg-6 flex-lg-column d-lg-flex pb-4">
                         <h3>Goal</h3>
                         <p>
-                            Design and code a responsive email with HTML and CSS. Test it in
-                            multiple browsers and
+                            Design and code a responsive email with HTML and CSS. Test it in multiple browsers and.
                         </p>
                     </div>
 
