@@ -165,9 +165,22 @@ require_once('../init.php');
 
                             <path clip-path="url(#clip-path2)" fill="#ff4c29" class="t_left" id="path" d="M703.5 461.2 662.6 383a208.5 208.5 0 0 0-36.6 36.2 206.9 206.9 0 0 0-162.8-79A207.3 207.3 0 0 0 257 526h86.7a121.4 121.4 0 0 1 239 0h86.7a121.2 121.2 0 0 1 34-64.8Z" transform="translate(-257 -340.1)" />
                         </svg>
+
                     </div>
                 </div>
                 <div class="col-3"></div>
+            </div>
+        </div>
+        <div class="container p-4 my-4">
+            <div class="row">
+                <div class="col-0 col-lg-1"></div>
+                <div class="col-12 col-lg-10">
+                    <div class="d-flex justify-content-around">
+                        <a href="https://github.com/Dextrode/Logo-Animation" class="btn btn-secondary w-50" target="_blank" title="Logo animation code link">Code</a>
+
+                    </div>
+                </div>
+                <div class="col-0 col-lg-1"></div>
             </div>
         </div>
     </main>

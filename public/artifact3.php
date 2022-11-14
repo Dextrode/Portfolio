@@ -111,7 +111,7 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-12 col-lg-8">
-                    <img class="img-fluid rounded justify-self-center" src="images/wordpress-issue.png" alt="wordpress website issue screenshot" />
+                    <img class="img-fluid rounded justify-self-center" src="images/wordpress-issue.PNG" alt="wordpress website issue screenshot" />
                 </div>
                 <div class="col-0 col-lg-2"></div>
             </div>
@@ -138,9 +138,9 @@ require_once('../init.php');
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
                     <div class="d-flex justify-content-around">
-                        <a href="https://charity.gregoryosborne.ca/" class="btn btn-secondary w-25" target="_blank">Old Website</a>
+                        <a href="https://charity.gregoryosborne.ca/" class="btn btn-secondary w-25" target="_blank" title="Charity website link">Website</a>
 
-                        <a href="https://charity.gregoryosborne.ca/" class="btn btn-secondary w-25" target="_blank">New Website</a>
+                        <a href="https://charity.gregoryosborne.ca/" class="btn btn-secondary w-25" target="_blank" title="Charity website code link">Code</a>
                     </div>
                 </div>
                 <div class="col-0 col-lg-1"></div>
