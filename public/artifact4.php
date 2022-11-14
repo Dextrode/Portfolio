@@ -143,7 +143,7 @@ require_once('../init.php');
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
                     <div class="d-flex justify-content-around">
-                        <a href="https://cardgames.gregoryosborne.ca/" class="btn btn-secondary w-25" target="_blank" title="Card Game Site Link">Live</a>
+                        <a href="https://codepen.io/Dextro101/pen/gOzEZVO" class="btn btn-secondary w-25" target="_blank" title="Card game live Codepen link">Live</a>
 
                         <a href="https://github.com/Dextrode/Card-Games" class="btn btn-secondary w-25" target="_blank" title="Solitaire code link">Code</a>
                     </div>
