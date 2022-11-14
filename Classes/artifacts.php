@@ -176,9 +176,3 @@ $portfolio_artifacts = [
         $wordpress_recreation,
         $solitaire,
     ];
-
-$portfolio_artifacts = [
-        $loading_animation,
-        $responsive_email,
-        $wordpress_recreation
-    ];
