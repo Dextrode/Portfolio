@@ -141,6 +141,7 @@ require_once('../init.php');
                         <a href="https://charity.gregoryosborne.ca/" class="btn btn-secondary w-25" target="_blank" title="Charity website link">Website</a>
 
                         <a href="https://charity.gregoryosborne.ca/" class="btn btn-secondary w-25" target="_blank" title="Charity website code link">Code</a>
+                        
                     </div>
                 </div>
                 <div class="col-0 col-lg-1"></div>
