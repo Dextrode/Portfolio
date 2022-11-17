@@ -24,10 +24,10 @@ require_once('../init.php');
             <?php require('partials/home-partials/banner.php'); ?>
         </section>
 
-            <!-- ** Work Section ** -->
-            <section id="work">
-                <?php require('partials/home-partials/work-section.php'); ?>
-            </section>
+        <!-- ** Work Section ** -->
+        <section id="work">
+            <?php require('partials/home-partials/work-section.php'); ?>
+        </section>
         <!-- ** Skills ** -->
         <section id="about">
             <?php require('partials/home-partials/skills.php'); ?>
