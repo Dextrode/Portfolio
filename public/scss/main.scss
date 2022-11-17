@@ -360,6 +360,8 @@ svg {
     animation: typing 1s steps(4, start), blink-caret 0.8s step-end infinite;
     animation-delay: 2.5s;
     animation-fill-mode: forwards;
+    padding-bottom: 0.8rem;
+    margin-bottom: 0px;
 }
 
 /* The typing effect */
