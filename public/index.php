@@ -14,9 +14,9 @@ require_once('../init.php');
 <body class="bg-primary" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <header>
         <!-- ** Header ** -->
-        <?php require('partials/global-partials/header.php'); ?>
+        <?php require('partials/global-partials/header-homepage.php'); ?>
     </header>
-    <main id>
+    <main>
 
         <!-- ** Banner ** -->
 
@@ -28,10 +28,10 @@ require_once('../init.php');
         <section id="work">
             <?php require('partials/home-partials/work-section.php'); ?>
         </section>
-        <!-- ** Skills ** -->
-        <section id="about">
-            <?php require('partials/home-partials/skills.php'); ?>
 
+        <!-- ** Skills ** -->
+        <section id="about" class="container my-4 p-4" data-aos="fade-up">
+            <?php require('partials/home-partials/skills.php'); ?>
 
             <!-- ** About ** -->
             <?php require('partials/home-partials/about-section.php'); ?>
@@ -39,25 +39,20 @@ require_once('../init.php');
 
 
         <!-- ** Descriptors ** -->
-        <section class="container my-4 p-4" data-aos="fade-up">
+        <section>
             <?php require('partials/home-partials/descriptors.php'); ?>
         </section>
 
         <!-- ** Contact ** -->
-        <section class="container my-4 p-4" data-aos="fade-up">
+        <section>
             <?php require('partials/home-partials/contact.php'); ?>
         </section>
     </main>
 
-    <footer class="container my-4 p-4">
+    <footer>
         <?php require('partials/global-partials/footer.php'); ?>
     </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
-
+    <?php require('partials/global-partials/scripts.php'); ?>
+    
 </body>
-
 </html>

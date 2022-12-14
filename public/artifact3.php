@@ -151,6 +151,7 @@ require_once('../init.php');
     <footer>
         <?php require('partials/global-partials/footer.php'); ?>
     </footer>
+    <?php require('partials/global-partials/scripts.php'); ?>
 </body>
 
 </html>
