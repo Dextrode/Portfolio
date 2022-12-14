@@ -7,7 +7,7 @@ $light: #f3f3f3;
 $orange: #ff4c29;
 $offwhite: #dcdcdd;
 
-@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 /* COLORS
 	#ff4c29 - Orange
@@ -38,7 +38,6 @@ $grid-breakpoints: (
 |===============---------------------------
 */
 
-
 /*
 |===============---------------------------
 |  Typography
@@ -50,6 +49,7 @@ $grid-breakpoints: (
     font-family: "Righteous", cursive;
     color: $light;
     line-height: 0.7;
+    height: 37px;
 }
 
 .header {
@@ -92,6 +92,7 @@ li {
 
 ul {
     list-style-image: url("../images/listicon.svg");
+
     padding-left: 15px;
 }
 
@@ -118,31 +119,9 @@ ul {
 |------------------------------------------
 */
 
-/*
-|-------------------
-|  Banner
-|-------------------
-*/
-
-.banner {
-    height: 100vh;
-}
-
-
-
 .greg-image {
     border: $light 4px solid;
     border-radius: 2rem;
-}
-
-/*
-|-------------------
-|  Card
-|-------------------
-*/
-
-#main {
-    height: 100vh;
 }
 
 /*
@@ -155,10 +134,6 @@ ul {
     border-radius: 15px;
     max-width: 30vw;
     min-width: 235px;
-}
-
-.card-img-top {
-    width: 92%;
 }
 
 .img-container {
@@ -224,13 +199,11 @@ svg {
     padding: 10px;
 }
 
-
 /*
 |===============---------------------------
 |  Media Query
 |===============---------------------------
 */
-
 
 @media (min-width: 576px) {
     .check-icon-text {
@@ -242,10 +215,6 @@ svg {
 
     .email-lofi {
         width: 160px;
-    }
-
-    .card-img-top {
-        width: 92%;
     }
 }
 
@@ -269,10 +238,6 @@ svg {
     svg {
         padding: 15px;
     }
-
-    .card-img-top {
-        width: 94%;
-    }
 }
 
 @media (min-width: 992px) {
@@ -282,10 +247,6 @@ svg {
 
     svg {
         padding: 20px;
-    }
-
-    .card-img-top {
-        width: 95%;
     }
 }
 
@@ -371,8 +332,6 @@ svg {
     white-space: nowrap; /* Keeps the content on a single line */
     
     animation: typing 2s steps(9, end), blink-caret 0.8s step-end 3;
-    padding-bottom: 0.8rem;
-    margin-bottom: 0px;
 }
 
 
@@ -385,8 +344,6 @@ svg {
     animation: typing 1s steps(4, start), blink-caret 0.8s step-end infinite;
     animation-delay: 2.5s;
     animation-fill-mode: forwards;
-    padding-bottom: 0.8rem;
-    margin-bottom: 0px;
 }
 
 /* The typing effect */
@@ -408,3 +365,4 @@ svg {
         border-color: #ff4c29;
     }
 }
+
