@@ -5,10 +5,10 @@
     define('PROJECT_ROOT', dirname(__FILE__));
 
     // Adding the database constants
-    define('DB_HOST', 'localhost');
-    define('DB_USER', 'root');
-    define('DB_PASS', '');
-    define('DB_NAME', 'portfolio');
+    // define('DB_HOST', 'localhost');
+    // define('DB_USER', 'root');
+    // define('DB_PASS', '');
+    // define('DB_NAME', 'portfolio');
 
     // Include functions
     require('functions.php');
