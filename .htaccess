@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 RewriteEngine on
 
 RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
@@ -17,4 +15,3 @@ RewriteCond %{HTTP_HOST} ^(www.)?gregoryosborne.ca$
 RewriteRule ^(/)?$ public/index.php [L]
 
 ErrorDocument 404 http://www.gregoryosborne.ca/404.html
->>>>>>> parent of c6c7d31 (Merge branch 'development' into main)
