@@ -8,13 +8,13 @@ require_once('../init.php');
 
 <head>
     <!-- ** Head ** -->
-    <?php require('partials/global-partials/head.php'); ?>
+    <?php require(h('partials/global-partials/head.php')); ?>
 </head>
 
 <body class="bg-primary" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <header>
         <!-- ** Header ** -->
-        <?php require('partials/global-partials/header.php'); ?>
+        <?php require(h('partials/global-partials/header.php')); ?>
     </header>
     <main>
         <div class="container p-4 mt-sm-4 my-4">
@@ -50,7 +50,7 @@ require_once('../init.php');
                 </div>
             </div>
         </div>
-        <div class="container p-4 my-4" data-aos="fade-up">
+        <div class="container p-4 my-4">
             <div class="row">
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
@@ -65,7 +65,7 @@ require_once('../init.php');
                 <div class="col-0 col-lg-1"></div>
             </div>
         </div>
-        <div class="container p-4 my-4" data-aos="fade-up">
+        <div class="container p-4 my-4">
             <div class="row">
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
@@ -86,12 +86,12 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-12 col-lg-8">
-                    <img class="img-fluid rounded justify-self-center" src="images/wordpress-screenshot.jpg" alt="wordpress website screenshot">
+                    <img class="img-fluid rounded justify-self-center" src="images/wordpress-screenshot.png" alt="wordpress website screenshot" />
                 </div>
                 <div class="col-0 col-lg-2"></div>
             </div>
         </div>
-        <div class="container p-4 my-4" data-aos="fade-up">
+        <div class="container p-4 my-4">
             <div class="row">
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
@@ -111,12 +111,12 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-12 col-lg-8">
-                    <img class="img-fluid rounded justify-self-center" src="images/wordpress-issue.PNG" alt="wordpress website issue screenshot">
+                    <img class="img-fluid rounded justify-self-center" src="images/wordpress-issue.png" alt="wordpress website issue screenshot" />
                 </div>
                 <div class="col-0 col-lg-2"></div>
             </div>
         </div>
-        <div class="container p-4 my-4" data-aos="fade-up">
+        <div class="container p-4 my-4">
             <div class="row">
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
@@ -133,15 +133,14 @@ require_once('../init.php');
                 <div class="col-0 col-lg-1"></div>
             </div>
         </div>
-        <div class="container p-4 my-4" data-aos="fade-up">
+        <div class="container p-4 my-4">
             <div class="row">
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
                     <div class="d-flex justify-content-around">
-                        <a href="https://charity.gregoryosborne.ca/" class="btn btn-secondary w-25" target="_blank" title="Charity website link">Website</a>
+                        <a href="https://charity.gregoryosborne.ca/" class="btn btn-secondary w-25" target="_blank">Old Website</a>
 
-                        <a href="https://charity.gregoryosborne.ca/" class="btn btn-secondary w-25" target="_blank" title="Charity website code link">Code</a>
-                        
+                        <a href="https://charity.gregoryosborne.ca/" class="btn btn-secondary w-25" target="_blank">New Website</a>
                     </div>
                 </div>
                 <div class="col-0 col-lg-1"></div>
@@ -149,7 +148,7 @@ require_once('../init.php');
         </div>
     </main>
     <footer>
-        <?php require('partials/global-partials/footer.php'); ?>
+        <?php require(h('partials/global-partials/footer.php')); ?>
     </footer>
 </body>
 
