@@ -192,6 +192,13 @@ ul {
     font-weight: 700;
 }
 
+.check-icon-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
 /*
 |-------------------
 |  Section 3
@@ -238,6 +245,7 @@ svg {
         display: flex;
         flex-direction: column;
         align-content: center;
+        
     }
 
     .email-lofi {
@@ -408,3 +416,4 @@ svg {
         border-color: #ff4c29;
     }
 }
+

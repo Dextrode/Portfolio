@@ -10,6 +10,9 @@
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" title="Link to Homepage" href="/">Home</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#work" title="Link to Work page">Work</a>
+                </li>
             </ul>
         </div>
     </div>
