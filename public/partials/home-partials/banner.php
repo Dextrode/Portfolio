@@ -12,11 +12,11 @@
                     <h3>Front End Developer</h3>
                 </div>
                 <div class="">
-                    <a href="#about" title="Link to About page" class="btn btn-secondary d-none d-lg-block learn-more-me w-50">Learn More</a>
+                    <a href="https://gregoryosborne.ca/work" title="Link to About page" class="btn btn-secondary d-none d-lg-block learn-more-me w-50">Learn More</a>
                 </div>
             </div>
             <div>
-                <img class="greg-image img-fluid float-lg-end" src="images/greg-image.png" alt="Image of Greg Osborne">
+                <img class="greg-image img-fluid float-lg-end" src="images/greg-image.png" alt="Image of Greg Osborne" />
             </div>
         </div>
     </div>

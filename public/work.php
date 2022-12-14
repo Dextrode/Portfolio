@@ -16,9 +16,8 @@ require_once('../init.php');
         <?php require(h('partials/global-partials/header.php')); ?>
     </header>
     <main>
-        <!-- ** Banner ** -->
-        <?php require(h('partials/home-partials/banner.php')); ?>
-
+        <!-- ** Title ** -->
+        <?php require(h('partials/artifact-partials/work-title.php')); ?>
 
         <!-- ** Artifact cards ** -->
         <div class="container p-4 my-4 aos-init" data-aos="fade-up">
@@ -31,17 +30,7 @@ require_once('../init.php');
                 <?php endforeach; ?>
             </div>
         </div>
-
-        <!-- ** Skills ** -->
-        <?php require(h('partials/home-partials/skills.php')); ?>
-
-        <!-- ** About ** -->
-        <?php require(h('partials/home-partials/about-section.php')); ?>
-
-        <!-- ** Descriptors ** -->
-        <?php require(h('partials/home-partials/descriptors.php')); ?>
     </main>
-
     <footer>
         <?php require(h('partials/global-partials/footer.php')); ?>
     </footer>

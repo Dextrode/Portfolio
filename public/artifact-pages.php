@@ -8,68 +8,19 @@ require_once('../init.php');
 
 <head>
     <!-- ** Head ** -->
-    <?php require(h('partials/global-partials/head.php')); ?>
+    <?php require('partials/global-partials/head.php'); ?>
 </head>
 
-<body class="bg-primary" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
-    <header>
+<body class="bg-primary artifact" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+<header>
         <!-- ** Header ** -->
-        <?php require(h('partials/global-partials/header.php')); ?>
+        <?php require('partials/global-partials/header.php'); ?>
     </header>
     <main>
-        <div class="container p-4 mt-sm-4 my-4">
-            <div class="row g-6">
-                <div class="col-12">
-                    <h1 class="display-3">CSS Loading Animation</h1>
-                    <h3 class="date">May 24, 2022</h3>
-                </div>
-            </div>
-        </div>
+    
 
-        <div class="container p-4 my-4">
-            <div class="row g-6">
-                <div class="col d-lg-flex justify-content-lg-between">
-                    <div class="col-lg-6 flex-lg-column d-lg-flex pb-4">
-                        <h3>Goal</h3>
-                        <p>
-                            Create a loading animation with my logo, using CSS or Java. Make the
-                            animation look like movement through infinity.
-                        </p>
-                    </div>
-                    <div class="col-lg-2"></div>
-                    <div class="col-lg-5 artifact-intro">
-                        <h3>Skills Used</h3>
-                        <div class="">
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Illustrator</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container p-4 my-4">
-            <div class="row">
-                <div class="col-0 col-lg-1"></div>
-                <div class="col-12 col-lg-10">
-                    <h3>Logo</h3>
-                    <p>
-                        I created my logo using symmetrical circles with splits, giving movement
-                        and a professional look.
-                    </p>
-                </div>
-                <div class="col-0 col-lg-1"></div>
-            </div>
-            <div class="row">
-                <div class="col-0 col-lg-2"></div>
-                <div class="col-12 col-lg-8">
-                    <img class="img-fluid rounded" src="images/logo_brainstorm.jpg" alt="Logo Brainstorming Sketch" />
-                </div>
-                <div class="col-0 col-lg-2"></div>
-            </div>
-        </div>
+        <?php require('partials/artifact-partials/artifact-info.php'); ?>
+        <?php require('partials/artifact-partials/artifact-section.php'); ?>
         <div class="container p-4 my-4">
             <div class="row">
                 <div class="col-0 col-lg-1"></div>
@@ -172,20 +123,7 @@ require_once('../init.php');
         </div>
     </main>
     <footer>
-        <div class="container my-4 p-4">
-            <div class="row pt-4">
-                <div class="col">
-                    <a href="https://www.facebook.com/gregory.osborne.98/" title="Link to Gregory Osborne Facebook Page" target="_blank"><img src="images/fb.svg" class="socials" alt="facebook logo icon" /></a>
-                    <a href="https://github.com/Dextrode" title="Link to Gregory Osborne Github Page" target="_blank"><img src="images/git.svg" class="socials" alt="Github  logo icon" /></a>
-                    <a href="https://www.linkedin.com/in/gregory-osborne-266b8b215/" title="Link to Gregory Osborne Linkedin Page" target="_blank"><img src="images/link.svg" class="socials" alt="Linkedin logo icon" /></a>
-                </div>
-            </div>
-            <div class="row pt-4">
-                <div class="col">
-                    <p>&copy; 2021 Gregory Osborne.</p>
-                </div>
-            </div>
-        </div>
+        <?php require(h('partials/global-partials/footer.php')); ?>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>
