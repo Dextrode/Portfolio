@@ -28,5 +28,3 @@ class Artifact {
         $this->link = $properties['link'];
     }
 }
-
-
