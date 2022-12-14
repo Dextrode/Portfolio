@@ -5,45 +5,59 @@ require_once('../init.php');
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- ** Head ** -->
-    <?php require(h('partials/global-partials/head.php')); ?>
+    <?php require('partials/global-partials/head.php'); ?>
 </head>
 
 <body class="bg-primary" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <header>
         <!-- ** Header ** -->
-        <?php require(h('partials/global-partials/header.php')); ?>
+        <?php require('partials/global-partials/header.php'); ?>
     </header>
-    <main>
+    <main id>
+
         <!-- ** Banner ** -->
-        <?php require(h('partials/home-partials/banner.php')); ?>
 
+        <section class="banner">
+            <?php require('partials/home-partials/banner.php'); ?>
+        </section>
 
-        <!-- ** Artifact cards ** -->
-        <div class="container p-4 my-4 aos-init" data-aos="fade-up">
-            <h3>Recent Work</h3>
-            <div class="row g-3 d-flex justify-content-center">
-                <?php foreach($portfolio_artifacts as $portfolio_artifact): ?>
-                    <!-- The file that the property values are looped through -->
-                    <?php require(h('partials/artifact-partials/cards/card1.php')); ?>
-                    <!-- Ends the loop -->
-                <?php endforeach; ?>
-            </div>
-        </div>
-
+        <!-- ** Work Section ** -->
+        <section id="work">
+            <?php require('partials/home-partials/work-section.php'); ?>
+        </section>
         <!-- ** Skills ** -->
-        <?php require(h('partials/home-partials/skills.php')); ?>
+        <section id="about">
+            <?php require('partials/home-partials/skills.php'); ?>
 
-        <!-- ** About ** -->
-        <?php require(h('partials/home-partials/about-section.php')); ?>
+
+            <!-- ** About ** -->
+            <?php require('partials/home-partials/about-section.php'); ?>
+        </section>
+
 
         <!-- ** Descriptors ** -->
-        <?php require(h('partials/home-partials/descriptors.php')); ?>
+        <section class="container my-4 p-4" data-aos="fade-up">
+            <?php require('partials/home-partials/descriptors.php'); ?>
+        </section>
+
+        <!-- ** Contact ** -->
+        <section class="container my-4 p-4" data-aos="fade-up">
+            <?php require('partials/home-partials/contact.php'); ?>
+        </section>
     </main>
 
-    <footer>
-        <?php require(h('partials/global-partials/footer.php')); ?>
+    <footer class="container my-4 p-4">
+        <?php require('partials/global-partials/footer.php'); ?>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
