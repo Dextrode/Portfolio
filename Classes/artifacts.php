@@ -61,12 +61,12 @@ $responsive_email = new Artifact([
         "head5" => "Testing / Trouble Shooting",
     ],
     "date" => "May 22, 2022",
-    "goal" => " Design and code a responsive email with HTML and CSS. Test it in multiple browsers and.",
+    "goal" => "Design and code a responsive email with HTML and CSS. Test it in multiple browsers and.",
     "skills" => [
         "first" => "HTML",
         "second" => "CSS",
         "third" => "Illustrator",
-        // "fourth" => "1",
+
     ],
     "body" => [
         "para1" => "Our assignment was to develop an email as part of a larger project that included designing an app for “smart-pots.” We also created a website to promote “smart-pots” and the email’s purpose was to advertise our new product. ",
@@ -78,14 +78,11 @@ $responsive_email = new Artifact([
         "para3" => "I started creating the lofi-wireframe based on what I learned when reviewing other advertisement emails. This included a call to action, an explanation of the product, the benefits and photos showing the product itself.
         
         Once the new wireframe was finalized, I developed the email and hosted it on my domain.",
-        // "fourth" => "1",
     ],
     "images" => [
         "img1" => "email-logo.jpg",
         "img2a" => "email-lofi.png",
         "img2b" => "email-hifi.png",
-        // "img3" => "#",
-        // "img4" => "#",
     ],
     "thumbnail" => "email-logo.jpg",
     "link" => "artifact2.php",
@@ -110,7 +107,6 @@ $wordpress_recreation = new Artifact([
         "first" => "HTML",
         "second" => "CSS",
         "third" => "Illustrator",
-        // "fourth" => "1",
     ],
     "body" => [
         "para1" => "Our assignment was to develop an email as part of a larger project that included designing an app for “smart-pots.” We also created a website to promote “smart-pots” and the email’s purpose was to advertise our new product. ",
@@ -122,62 +118,61 @@ $wordpress_recreation = new Artifact([
         "para3" => "I started creating the lofi-wireframe based on what I learned when reviewing other advertisement emails. This included a call to action, an explanation of the product, the benefits and photos showing the product itself.
         
         Once the new wireframe was finalized, I developed the email and hosted it on my domain.",
-        // "fourth" => "1",
     ],
     "images" => [
-        "img1" => "wordpress-screenshot.png",
+        "img1" => "wordpress-screenshot.jpg",
         "img2" => "wordpress-issue.png",
-        // "img2b" => "email-hifi.png",
-        // "img3" => "#",
-        // "img4" => "#",
+
     ],
     "thumbnail" => "wordpress-thumbnail.png",
     "link" => "artifact3.php",
 ]);
 
-// --------- THIRD ARTIFACT ---------
-$usability_report = new Artifact([
+// --------- FOURTH ARTIFACT ---------
+$solitaire = new Artifact([
     "id" => 4,
-    "title" => "UI/UX Usability Report",
+    "title" => "Solitaire Game",
     "header" => [
 
         "head1" => "Goal",
         "head2" => "Skills Used",
-        "head3" => "Original Wireframe",
-        "head4" => "Final Wireframe",
-        "head5" => "Testing",
-        "head6" => "Solutions",
-        "head7" => "The Wireframe",
+        "head3" => "Initiation",
+        "head4" => "Creating the Base",
+        "head5" => "Displaying Cards",
+        "head6" => "Solitaire Display",
+        "head7" => "Solitaire Set-Up",
     ],
-    "date" => "July 6, 2022",
-    "goal" => "The goal was to create a mobile, high-fidelity wireframe for our GameLine app. We then performed high-level purpose testing to evaluate the app’s usability and improve users’ experience. It was important to ensure that those who downloaded the app could easily navigate it to do basic and essential processes and that I located areas where usability could be increased. ",
+    "date" => "Oct 31, 2022",
+    "goal" => "Create the card game Solitaire with JS",
     "skills" => [
-        "first" => "Figma",
-        "second" => "Maze",
-        "third" => "Illustrator",
-        // "fourth" => "1",
+        "first" => "HTML",
+        "second" => "CSS",
+        "third" => "JavaScript",
     ],
     "body" => [
-        "para1" => "The first aspect of this project was creating the initial wireframe. To do this I looked at examples of other mobile app’s, integrating certain aspects into my initial design. Based on this, I created a style guide with colours, fonts and buttons. Then I made a sitemap that includes all the pages I was going to create. After that I began creating the lofi wireframes, starting with the components used globally like the bottom navigation. Finally, I began filling the pages with content, using the same margins, and spacing for consistency.",
+        "para1" => "After playing a few games of solitaire on my phone, I was motivated to attempt to create the game myself with JavaScript. After looking through examples, I started off creating a simple html page, made some basic styles, then began JavaScript.",
 
-        "para2" => "With the lofi wireframe done, I began stylizing it with the style guide created earlier. Once I had completed styling it, I started making it a functional prototype. I added navigation and commonly used features that I planned on testing.",
+        "para2" => "My first goal was to create a class for single cards and a class for the deck. For the card class, I set the suit and value for that individual card. I created an array for both the values and suits, then created a freshDeck function to combine into a flatMap, ran it through the card class,  giving us 52 unique cards. Later, I created a method in the Deck class that puts all the cards in a deck array and another to shuffle the deck.",
 
-        "para3" => "There were two methods used to test the usability of the GameLine app. The first method used was asking participants to complete a series of tasks on the Maze testing application. This gave us valuable insights on usability of the prototype, showing us what users had issues with and what I could improve on. We also asked the participants in person how satisfied they were with each step.",
-        "para4" => "I made changes to the prototype based on the data received and user feedback. Through this data I located specific issues and made revisions to solve them. ",
+        "para3" => "Now that I had all 52 unique cards, the next step was displaying them based on their value. I created a method in the card class that made a div element and set its text/class based on the card’s suit/value. Then I created the design for the backside of the card and set it as a class.",
+
+        "para4" => "Next, I had to display each in the right position. Initially, I used a grid layout to get the positions for each card slot but switched to flex to make it simpler, testing each slot by adding temporary cards.",
+
+        "para5" => "After getting the cards to display, I began setting up the solitaire game itself. The first step was to split the cards into two decks, a tableau deck, and a stock deck. The tableau deck cards had to be distributed to each column, adding 1 more for each following with the last card facing up. To properly do this, I needed a Tableau class. In this class, I created all 7 tableau slots with a unique id, a method to push the cards to a column based on the id with a nested loop that ran through all 28 cards.",
     ],
     "images" => [
-        "img1" => "wordpress-screenshot.png",
-        "img2" => "wordpress-issue.png",
-        // "img2b" => "email-hifi.png",
-        // "img3" => "#",
-        // "img4" => "#",
+        "img1" => "solitaire-start.PNG",
+        "img2" => "solitaire-card.PNG",
+        "img3" => "solitaire-position.PNG",
+        "img3" => "solitaire-array.PNG",
     ],
-    "thumbnail" => "logo_dark.svg",
-    "link" => "artifact4.html",
+    "thumbnail" => "solitaire-thumb.PNG",
+    "link" => "artifact4.php",
 ]);
 
 $portfolio_artifacts = [
-        $loading_animation,
-        $responsive_email,
-        $wordpress_recreation
-    ];
+    $loading_animation,
+    $responsive_email,
+    $wordpress_recreation,
+    $solitaire,
+];

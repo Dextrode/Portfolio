@@ -8,13 +8,13 @@ require_once('../init.php');
 
 <head>
     <!-- ** Head ** -->
-    <?php require(h('partials/global-partials/head.php')); ?>
+    <?php require('partials/global-partials/head.php'); ?>
 </head>
 
 <body class="bg-primary" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <header>
         <!-- ** Header ** -->
-        <?php require(h('partials/global-partials/header.php')); ?>
+        <?php require('partials/global-partials/header.php'); ?>
     </header>
     <main>
         <div class="container p-4 mt-sm-4 my-4">
@@ -50,7 +50,7 @@ require_once('../init.php');
                 </div>
             </div>
         </div>
-        <div class="container p-4 my-4">
+        <div class="container p-4 my-4" data-aos="fade-up">
             <div class="row">
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
@@ -65,12 +65,12 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-12 col-lg-8">
-                    <img class="img-fluid rounded" src="images/logo_brainstorm.jpg" alt="Logo Brainstorming Sketch" />
+                    <img class="img-fluid rounded" src="images/logo_brainstorm.jpg" alt="Logo Brainstorming Sketch">
                 </div>
                 <div class="col-0 col-lg-2"></div>
             </div>
         </div>
-        <div class="container p-4 my-4">
+        <div class="container p-4 my-4" data-aos="fade-up">
             <div class="row">
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
@@ -101,12 +101,12 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-12 col-lg-8">
-                    <img class="img-fluid rounded" src="images/animation_sketch.jpg" alt="Logo Animation Sketch" />
+                    <img class="img-fluid rounded" src="images/animation_sketch.jpg" alt="Logo Animation Sketch">
                 </div>
                 <div class="col-0 col-lg-2"></div>
             </div>
         </div>
-        <div class="container p-4 my-4">
+        <div class="container p-4 my-4" data-aos="fade-up">
             <div class="row">
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
@@ -132,14 +132,14 @@ require_once('../init.php');
                 <div class="col-0 col-lg-1"></div>
             </div>
         </div>
-        <div class="container p-4 my-4">
+        <div class="container p-4 my-4" data-aos="fade-up">
             <div class="row">
                 <div class="col-3"></div>
                 <div class="col-6">
                     <h3>Finished Animation</h3>
                     <div class="d-flex shadow col-sm justify-content-center align-content-center rounded"></div>
                     <div class="animated_logo d-flex shadow col justify-content-center align-content-center rounded">
-                        <svg class="" xmlns="http://www.w3.org/2000/svg" id="logoSVG" data-name="logoSVG" viewBox="0 0 738 414.6">
+                        <svg class="" xmlns="http://www.w3.org/2000/svg" id="logoSVG" data-name="logoSVG" viewBox="0 0 738 414.6" height="300" width="700">
                             <defs>
                                 <clipPath id="clip-path">
                                     <rect id="rect" x="-700" y="250" height="700" width="700" />
@@ -165,30 +165,28 @@ require_once('../init.php');
 
                             <path clip-path="url(#clip-path2)" fill="#ff4c29" class="t_left" id="path" d="M703.5 461.2 662.6 383a208.5 208.5 0 0 0-36.6 36.2 206.9 206.9 0 0 0-162.8-79A207.3 207.3 0 0 0 257 526h86.7a121.4 121.4 0 0 1 239 0h86.7a121.2 121.2 0 0 1 34-64.8Z" transform="translate(-257 -340.1)" />
                         </svg>
+
                     </div>
                 </div>
                 <div class="col-3"></div>
             </div>
         </div>
-    </main>
-    <footer>
-        <div class="container my-4 p-4">
-            <div class="row pt-4">
-                <div class="col">
-                    <a href="https://www.facebook.com/gregory.osborne.98/" title="Link to Gregory Osborne Facebook Page" target="_blank"><img src="images/fb.svg" class="socials" alt="facebook logo icon" /></a>
-                    <a href="https://github.com/Dextrode" title="Link to Gregory Osborne Github Page" target="_blank"><img src="images/git.svg" class="socials" alt="Github  logo icon" /></a>
-                    <a href="https://www.linkedin.com/in/gregory-osborne-266b8b215/" title="Link to Gregory Osborne Linkedin Page" target="_blank"><img src="images/link.svg" class="socials" alt="Linkedin logo icon" /></a>
+        <div class="container p-4 my-4" data-aos="fade-up">
+            <div class="row">
+                <div class="col-0 col-lg-1"></div>
+                <div class="col-12 col-lg-10">
+                    <div class="d-flex justify-content-around">
+                        <a href="https://github.com/Dextrode/Logo-Animation" class="btn btn-secondary w-50" target="_blank" title="Logo animation code link">Code</a>
+
+                    </div>
                 </div>
-            </div>
-            <div class="row pt-4">
-                <div class="col">
-                    <p>&copy; 2021 Gregory Osborne.</p>
-                </div>
+                <div class="col-0 col-lg-1"></div>
             </div>
         </div>
+    </main>
+    <footer>
+        <?php require('partials/global-partials/footer.php'); ?>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
-    <script src="scripts/main.js"></script>
 </body>
 
 </html>

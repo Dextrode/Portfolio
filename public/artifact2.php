@@ -8,13 +8,13 @@ require_once('../init.php');
 
 <head>
     <!-- ** Head ** -->
-    <?php require(h('partials/global-partials/head.php')); ?>
+    <?php require('partials/global-partials/head.php'); ?>
 </head>
 
 <body class="bg-primary" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <header>
         <!-- ** Header ** -->
-        <?php require(h('partials/global-partials/header.php')); ?>
+        <?php require('partials/global-partials/header.php'); ?>
     </header>
     <main>
         <div class="container p-4 mt-sm-4 my-4">
@@ -32,8 +32,7 @@ require_once('../init.php');
                     <div class="col-lg-6 flex-lg-column d-lg-flex pb-4">
                         <h3>Goal</h3>
                         <p>
-                            Design and code a responsive email with HTML and CSS. Test it in
-                            multiple browsers and
+                            Design and code a responsive email with HTML and CSS. Test it in multiple browsers and.
                         </p>
                     </div>
 
@@ -50,7 +49,7 @@ require_once('../init.php');
                 </div>
             </div>
         </div>
-        <div class="container p-4 my-4">
+        <div class="container p-4 my-4" data-aos="fade-up">
             <div class="row">
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
@@ -67,12 +66,12 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-12 col-lg-8">
-                    <img class="img-fluid rounded justify-self-center" src="images/email-logo.jpg" alt="SmartPot Logo" />
+                    <img class="img-fluid rounded justify-self-center" src="images/email-logo.jpg" alt="SmartPot Logo">
                 </div>
                 <div class="col-0 col-lg-2"></div>
             </div>
         </div>
-        <div class="container p-4 my-4">
+        <div class="container p-4 my-4" data-aos="fade-up">
             <div class="row">
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
@@ -95,13 +94,13 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-2"></div>
                 <div class="col-12 col-lg-8 d-flex justify-content-around">
-                    <img class="img-fluid rounded email-lofi" src="images/email-lofi.png" alt="email lofi wireframe" />
-                    <img class="img-fluid rounded email-lofi" src="images/email-hifi.png" alt="email lofi wireframe" />
+                    <img class="img-fluid rounded email-lofi" src="images/email-lofi.png" alt="email lofi wireframe">
+                    <img class="img-fluid rounded email-lofi" src="images/email-hifi.png" alt="email lofi wireframe">
                 </div>
                 <div class="col-0 col-lg-2"></div>
             </div>
         </div>
-        <div class="container p-4 my-4">
+        <div class="container p-4 my-4" data-aos="fade-up">
             <div class="row">
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
@@ -118,33 +117,24 @@ require_once('../init.php');
                 </div>
                 <div class="col-0 col-lg-1"></div>
             </div>
+        </div>
+        <div class="container p-4 my-4" data-aos="fade-up">
             <div class="row">
-                <div class="col-0 col-lg-2"></div>
-                <div class="col-12 col-lg-8">
-                    <img class="img-fluid rounded justify-self-center" src="images/email-testing.png" alt="email open in browsers" />
+                <div class="col-0 col-lg-1"></div>
+                <div class="col-12 col-lg-10">
+                    <div class="d-flex justify-content-around">
+                        <a href="http://smartpotsemail.gregoryosborne.ca/" class="btn btn-secondary w-25" target="_blank">Email</a>
+
+                        <a href="https://github.com/Dextrode/HTML-Email/blob/main/index.html" class="btn btn-secondary w-25" target="_blank">Code</a>
+                    </div>
                 </div>
-                <div class="col-0 col-lg-2"></div>
+                <div class="col-0 col-lg-1"></div>
             </div>
         </div>
     </main>
     <footer>
-        <div class="container my-4 p-4">
-            <div class="row pt-4">
-                <div class="col">
-                    <a href="https://www.facebook.com/gregory.osborne.98/" title="Link to Gregory Osborne Facebook Page" target="_blank"><img src="images/fb.svg" class="socials" alt="facebook logo icon" /></a>
-                    <a href="https://github.com/Dextrode" title="Link to Gregory Osborne Github Page" target="_blank"><img src="images/git.svg" class="socials" alt="Github  logo icon" /></a>
-                    <a href="https://www.linkedin.com/in/gregory-osborne-266b8b215/" title="Link to Gregory Osborne Linkedin Page" target="_blank"><img src="images/link.svg" class="socials" alt="Linkedin logo icon" /></a>
-                </div>
-            </div>
-            <div class="row pt-4">
-                <div class="col">
-                    <p>&copy; 2021 Gregory Osborne.</p>
-                </div>
-            </div>
-        </div>
+        <?php require('partials/global-partials/footer.php'); ?>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
-    <script src="scripts/main.js"></script>
 </body>
 
 </html>

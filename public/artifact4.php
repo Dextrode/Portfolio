@@ -20,8 +20,8 @@ require_once('../init.php');
         <div class="container p-4 mt-sm-4 my-4">
             <div class="row g-6">
                 <div class="col-12">
-                    <h1 class="display-3">Wordpress Website Recreation</h1>
-                    <h3 class="date">June 2, 2022</h3>
+                    <h1 class="display-3">Solitaire Game</h1>
+                    <h3 class="date">Oct 31, 2022</h3>
                 </div>
             </div>
         </div>
@@ -32,8 +32,7 @@ require_once('../init.php');
                     <div class="col-lg-6 flex-lg-column d-lg-flex pb-4">
                         <h3>Goal</h3>
                         <p>
-                            The goal was to Recreate a WordPress website with HTML, CSS &
-                            JavaScript.
+                            Create the card game Solitaire with JS
                         </p>
                     </div>
 
@@ -54,12 +53,9 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
-                    <h3>Resources and Template</h3>
+                    <h3>Initiation</h3>
                     <p>
-                        When starting his project, I first examined the page and created a html
-                        template on Word. I then downloaded the images and fonts, then copied
-                        the colors through inspecting the page. This gave me all the resources
-                        to start coding the website.
+                        After playing a few games of solitaire on my phone, I was motivated to attempt to create the game myself with JavaScript. After looking through examples, I started off creating a simple html page, made some basic styles, then began JavaScript.
                     </p>
                 </div>
                 <div class="col-0 col-lg-1"></div>
@@ -69,15 +65,10 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
-                    <h3>Recreating</h3>
+                    <h3>Creating the Base</h3>
                     <div class="col-12">
                         <p>
-                            Using the template I created on Word, I coded the HTML. To make the
-                            site responsive, I resized the original WordPress website to a 280px
-                            mobile width and started to recreate it with CSS. I started with
-                            coding the header and went down the page section by section. I
-                            examined it again to accurately recreate it finding the spacing and
-                            sizes for elements.
+                            My first goal was to create a class for single cards and a class for the deck. For the card class, I set the suit and value for that individual card. I created an array for both the values and suits, then created a freshDeck function to combine into a flatMap, ran it through the card class, giving us 52 unique cards. Later, I created a method in the Deck class that puts all the cards in a deck array and another to shuffle the deck.
                         </p>
                     </div>
                 </div>
@@ -85,8 +76,8 @@ require_once('../init.php');
             </div>
             <div class="row">
                 <div class="col-0 col-lg-2"></div>
-                <div class="col-12 col-lg-8">
-                    <img class="img-fluid rounded justify-self-center" src="images/wordpress-screenshot.jpg" alt="wordpress website screenshot">
+                <div class="col-12 col-lg-8 d-flex justify-content-center">
+                    <img class="img-fluid rounded justify-self-center" src="images/solitaire-array.PNG" alt="solitaire array screenshot">
                 </div>
                 <div class="col-0 col-lg-2"></div>
             </div>
@@ -95,14 +86,10 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
-                    <h3>Fixing Issues</h3>
+                    <h3>Displaying Cards</h3>
                     <div class="col-12">
                         <p>
-                            I completed my testing with Litmus PutsMail. Initially no images
-                            where displayed. I resolved the issue by creating a subdomain to
-                            hosting our images. I tested it again and found only the SVG’s
-                            didn’t appear. I tried to find a way that I could link them, but
-                            eventually converted them into PNG’s due to the time constraints.
+                            Now that I had all 52 unique cards, the next step was displaying them based on their value. I created a method in the card class that made a div element and set its text/class based on the card’s suit/value. Then I created the design for the backside of the card and set it as a class.
                         </p>
                     </div>
                 </div>
@@ -110,8 +97,8 @@ require_once('../init.php');
             </div>
             <div class="row">
                 <div class="col-0 col-lg-2"></div>
-                <div class="col-12 col-lg-8">
-                    <img class="img-fluid rounded justify-self-center" src="images/wordpress-issue.PNG" alt="wordpress website issue screenshot">
+                <div class="col-12 col-lg-8 d-flex justify-content-center">
+                    <img class="img-fluid rounded justify-self-center" src="images/solitaire-card.PNG" alt="card front and back image">
                 </div>
                 <div class="col-0 col-lg-2"></div>
             </div>
@@ -120,17 +107,35 @@ require_once('../init.php');
             <div class="row">
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
-                    <h3>Responsive</h3>
+                    <h3>Solitaire Display</h3>
                     <div class="col-12">
                         <p>
-                            After fixing the issues on mobile size, I resized the WordPress
-                            website to 767px as that is where it adjusted. I noted all changes
-                            and started to recreate it again using CSS media queries. I repeated
-                            this process at 992px and 1200px.
+                            Next, I had to display each in the right position. Initially, I used a grid layout to get the positions for each card slot but switched to flex to make it simpler, testing each slot by adding temporary cards.
                         </p>
                     </div>
                 </div>
                 <div class="col-0 col-lg-1"></div>
+            </div>
+        </div>
+        <div class="container p-4 my-4" data-aos="fade-up">
+            <div class="row">
+                <div class="col-0 col-lg-1"></div>
+                <div class="col-12 col-lg-10">
+                    <h3>Solitaire Set-Up</h3>
+                    <div class="col-12">
+                        <p>
+                            After getting the cards to display, I began setting up the solitaire game itself. The first step was to split the cards into two decks, a tableau deck, and a stock deck. The tableau deck cards had to be distributed to each column, adding 1 more for each following with the last card facing up. To properly do this, I needed a Tableau class. In this class, I created all 7 tableau slots with a unique id, a method to push the cards to a column based on the id with a nested loop that ran through all 28 cards.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-0 col-lg-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-0 col-lg-2"></div>
+                <div class="col-12 col-lg-8 d-flex justify-content-center">
+                    <img width="80%" class="img-fluid rounded justify-self-center" src="images/solitaire-start.PNG" alt="solitaire set-up screenshot">
+                </div>
+                <div class="col-0 col-lg-2"></div>
             </div>
         </div>
         <div class="container p-4 my-4" data-aos="fade-up">
@@ -138,10 +143,9 @@ require_once('../init.php');
                 <div class="col-0 col-lg-1"></div>
                 <div class="col-12 col-lg-10">
                     <div class="d-flex justify-content-around">
-                        <a href="https://charity.gregoryosborne.ca/" class="btn btn-secondary w-25" target="_blank" title="Charity website link">Website</a>
+                        <a href="https://codepen.io/Dextro101/pen/gOzEZVO" class="btn btn-secondary w-25" target="_blank" title="Card game live Codepen link">Live</a>
 
-                        <a href="https://charity.gregoryosborne.ca/" class="btn btn-secondary w-25" target="_blank" title="Charity website code link">Code</a>
-                        
+                        <a href="https://github.com/Dextrode/Card-Games" class="btn btn-secondary w-25" target="_blank" title="Solitaire code link">Code</a>
                     </div>
                 </div>
                 <div class="col-0 col-lg-1"></div>
