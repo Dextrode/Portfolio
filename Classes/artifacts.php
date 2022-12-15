@@ -18,7 +18,7 @@ $loading_animation = new Artifact([
         "head6" => "Finished Animation",
     ],
     "date" => "May 24, 2022",
-    "goal" => "Create a loading animation with my logo, using CSS or Java. Make the animation look like movement through infinity.",
+    "goal" => "Create a loading animation with my logo, using CSS or Java.",
     "skills" => [
         "first" => "HTML",
         "second" => "CSS",
@@ -91,7 +91,7 @@ $responsive_email = new Artifact([
 // --------- THIRD ARTIFACT ---------
 $wordpress_recreation = new Artifact([
     "id" => 3,
-    "title" => "Wordpress Website Recreation",
+    "title" => "Wordpress Recreation",
     "header" => [
 
         "head1" => "Goal",
@@ -143,7 +143,7 @@ $solitaire = new Artifact([
         "head7" => "Solitaire Set-Up",
     ],
     "date" => "Oct 31, 2022",
-    "goal" => "Create the card game Solitaire with JS",
+    "goal" => "Create the card game Solitaire with JS and CSS.",
     "skills" => [
         "first" => "HTML",
         "second" => "CSS",
