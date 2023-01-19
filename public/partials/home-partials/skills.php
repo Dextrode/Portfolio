@@ -10,6 +10,7 @@
                             <li>CSS</li>
                             <li>REACT</li>
                             
+                            
                         </ul>
                     </div>
                     <div class="col-3">
