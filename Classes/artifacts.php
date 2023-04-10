@@ -18,7 +18,7 @@ $loading_animation = new Artifact([
         "head6" => "Finished Animation",
     ],
     "date" => "May 24, 2022",
-    "goal" => "Create a loading animation with my logo, using CSS or Java.",
+    "goal" => "Create a loading animation with my logo, using CSS or JS.",
     "skills" => [
         "first" => "HTML",
         "second" => "CSS",
